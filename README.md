@@ -10,9 +10,9 @@ Experiment rails and detect common FAQ
 <p>git init<br />
 git add .<br />
 git commit -m "First Push"<br />
-git remote add origin https://github.com/blabla/bla.git <tab align=right>
+git remote add origin https://github.com/blabla/bla.git <tab align="right">
 &lt;https is your github repo url&gt;<br />
-git pull origin master<tab align=right> 
+git pull origin master<span float="right"> 
 &lt;if you create a readme in git&gt;<br/>
 git push origin master<br/>
 &lt;you are done&gt;
