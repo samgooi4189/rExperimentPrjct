@@ -7,16 +7,16 @@ Experiment rails and detect common FAQ
 <p>rails new .<p>
 
 <h2>To push to new repo in github:</h2>
-<p>git init<br />
-git add .<br />
-git commit -m "First Push"<br />
-git remote add origin https://github.com/blabla/bla.git <tab align="right">
+* git init<br />
+* git add .<br />
+* git commit -m "First Push"<br />
+* git remote add origin https://github.com/blabla/bla.git
 &lt;https is your github repo url&gt;<br />
-git pull origin master<span float="right"> 
+* git pull origin master 
 &lt;if you create a readme in git&gt;<br/>
-git push origin master<br/>
+* git push origin master<br/>
 &lt;you are done&gt;
-</p>
+
 
 check status:
 git status / git log
