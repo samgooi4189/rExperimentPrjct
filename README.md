@@ -49,3 +49,27 @@ To load the updated code while in console:
 
 Before bundle with pg:
 sudo apt-get install libpq-dev
+
+Deploy to heroku:
+add gem 'heroku' in Gemfile
+configure Gemfile:
+group :development, :test do
+        gem 'sqlite'
+end
+group :production do
+        gem 'pg'
+end
+sudo apt-get install postgresl		<if you dont install postresql locally, you wont able to install pg>
+bundle install
+heroku run rake db:migrate
+type in command: 
+wget -qO- https://toolbelt.heroku.com/install.sh | sh
+heroku login
+git add .
+git commit -m "init deploy"
+heroku create	<will create new app at heroku>
+heroku key:add	<if you dont have rsa key stored at heroku yet>
+git push heroku master
+
+
+
