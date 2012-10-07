@@ -3,17 +3,20 @@ rExperimentPrjct
 
 Experiment rails and detect common FAQ
 
-To create new app in current dir:
-rails new .
+<h2>To create new app in current dir:</h2>
+<p>rails new .<p>
 
-To push to new repo in github:
-git init
-git add .
-git commit -m "First Push"
-git remote add origin https://github.com/blabla/bla.git		<https is your github repo url>
-git pull origin master <if you create a readme in git>
-git push origin master
-<you are done>
+<h2>To push to new repo in github:</h2>
+<p>git init<br />
+git add .<br />
+git commit -m "First Push"<br />
+git remote add origin https://github.com/blabla/bla.git <tab align=right>
+&lt;https is your github repo url&gt;<br />
+git pull origin master<tab align=right> 
+&lt;if you create a readme in git&gt;<br/>
+git push origin master<br/>
+&lt;you are done&gt;
+</p>
 
 check status:
 git status / git log
